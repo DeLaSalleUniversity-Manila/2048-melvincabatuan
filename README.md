@@ -140,6 +140,23 @@ BUILD SUCCESSFUL
 Total time: 1 mins 20.833 secs
 ```
 
+## Install
+
+```shell
+$ adb devices
+adb server is out of date.  killing...
+* daemon started successfully *
+List of devices attached 
+KROJAUPJD6U8QCT8	device
+
+$ adb install 2048-android-release.apk
+3829 KB/s (625867 bytes in 0.159s)
+	pkg: /data/local/tmp/2048-android-release.apk
+Success
+```
+
+
+
 ##License
 
 2048-android is licensed under the [MIT license.](https://github.com/uberspot/2048-android/blob/master/LICENSE)
